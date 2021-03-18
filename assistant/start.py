@@ -32,8 +32,8 @@ async def assistant(event):
         if event.is_private and event.sender_id in sed:
             return
         await event.reply(
-            f"Hey there, this is Ultroid Assistant of {OWNER_NAME}!\n\n{ok}",
-            buttons=[Button.url("Know More", url="https://t.me/TeamUltroid")],
+            f"Hey there, this is Bot Assistant of {OWNER_NAME}!\n\n{ok}",
+            buttons=[Button.url("Know More", url="https://t.me/fadess22")],
         )
 
 
