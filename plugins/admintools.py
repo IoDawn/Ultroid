@@ -66,7 +66,7 @@ async def prmte(ult):
     isAdmin = chat.admin_rights
     isCreator = chat.creator
     if not isAdmin and not isCreator:
-        return await xx.edit("`Hmm, I'm not an admin here...`")
+        return await xx.edit("`Hmm, Kita bukan admin cokk...`")
     await xx.edit("`Promoting...`")
     user, rank = await get_user_info(ult)
     if not rank:
