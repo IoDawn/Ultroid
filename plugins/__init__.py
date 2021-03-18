@@ -55,7 +55,7 @@ def grt(seconds: int) -> str:
 
 
 KANGING_STR = [
-    "Using Witchery to kang this sticker...",
+    "Ijin nyolong ya...",
     "Plagiarising hehe...",
     "Inviting this sticker over to my pack...",
     "Kanging this sticker...",
