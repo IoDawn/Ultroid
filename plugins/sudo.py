@@ -8,13 +8,13 @@
 """
 ✘ Commands Available -
 
-• `{i}addsudo`
+• `{i}addpacar`
     Add Sudo Users by replying to user or using <space> separated userid(s)
 
 • `{i}delsudo`
     Remove Sudo Users by replying to user or using <space> separated userid(s)
 
-• `{i}listsudo`
+• `{i}listpacar`
     List all sudo users.
 """
 
@@ -26,7 +26,7 @@ from . import *
 
 
 @ultroid_cmd(
-    pattern="addsudo ?(.*)",
+    pattern="addpacar ?(.*)",
 )
 async def _(ult):
     if Var.BOT_MODE == True:
@@ -190,7 +190,7 @@ async def _(ult):
 
 
 @ultroid_cmd(
-    pattern="listsudo$",
+    pattern="listpacar$",
 )
 async def _(ult):
     ok = await eor(ult, "`...`")
