@@ -58,7 +58,7 @@ KANGING_STR = [
     "Ijin nyolong ya...",
     "Plagiarising hehe...",
     "Inviting this sticker over to my pack...",
-    "Kanging this sticker...",
+    "Sedang mengambil tikel...",
     "Hey that's a nice sticker!\nMind if I kang?!..",
     "Hehe me stel ur stiker...",
     "Ay look over there (☉｡☉)!→\nWhile I kang this...",
